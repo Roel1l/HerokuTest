@@ -31,4 +31,5 @@ app.use('/', function(req, res){
 app.use('/things', things); 
 
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000)
+
